@@ -14,5 +14,12 @@
         "psr-0": {
             "najmulcse\\laraplusadmin\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "najmulcse\\laraplusadmin\\LaraServiceProvider"
+            ]
+        }
     }
 }
