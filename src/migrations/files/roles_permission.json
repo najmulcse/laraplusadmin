@@ -1,0 +1,324 @@
+{
+  "Menu": [
+    {
+      "name": "Menus",
+      "url": "#",
+      "route": "NULL"
+    },
+    {
+      "name": "Add Menu",
+      "url": "add-menu",
+      "route": "admin.add.menu"
+    },
+    {
+      "name": "Store Menu",
+      "url": "store-menu",
+      "route": "admin.store.menu"
+    },
+    {
+      "name": "Edit Menu",
+      "url": "edit-menu",
+      "route": "admin.edit.menu"
+    },
+    {
+      "name": "View Menu",
+      "url": "view-menu",
+      "route": "admin.view.menu"
+    },
+    {
+      "name": "Update Menu",
+      "url": "update-menu",
+      "route": "admin.update.menu"
+    },
+    {
+      "name": "Delete Menu",
+      "url": "delete-menu",
+      "route": "admin.delete.menu"
+    },
+    {
+      "name": "Menu Item Delete",
+      "url": "menu-item-delete",
+      "route": "admin.menu.item.delete"
+    },
+    {
+      "name": "Menu Item Update",
+      "url": "menu-item-update",
+      "route": "admin.menu.item.update"
+    },
+    {
+      "name": "Store Menu Item",
+      "url": "store-menu-item",
+      "route": "admin.store.menu.item"
+    },
+    {
+      "name": "Order Menu",
+      "url": "order-menu",
+      "route": "admin.order.menu"
+    }
+  ,
+    {
+      "name": "Store Order Menu",
+      "url": "store-order-menu",
+      "route": "admin.store.order.menu"
+    }
+  ],
+  "Role": [
+    {
+      "name": "Web Roles",
+      "url": "#",
+      "route": "NULL"
+    },
+    {
+      "name": "Url Groups",
+      "url": "#",
+      "route": "NULL"
+    },{
+      "name": "Add Url Group",
+      "url": "add-url-group",
+      "route": "admin.add.url_group"
+    },
+    {
+      "name": "View All Url Group",
+      "url": "view-url-groups",
+      "route": "admin.view.url_groups"
+    },
+    {
+      "name": "Store Url Group",
+      "url": "store-url-group",
+      "route": "admin.store.url_groups"
+    },
+    {
+      "name": "Edit Url Group",
+      "url": "edit-url-group",
+      "route": "admin.edit.url_group"
+    },
+    {
+      "name": "Update Url Group",
+      "url": "update-url-group",
+      "route": "admin.update.url_group"
+    },{
+      "name": "Delete Url group",
+      "url": "delete-url-group",
+      "route": "admin.delete.url_group"
+    },{
+      "name": "Urls",
+      "url": "#",
+      "route": "NULL"
+    },{
+      "name": "View Url",
+      "url": "view-url",
+      "route": "admin.view.url"
+    },{
+      "name": "Store Url",
+      "url": "store-url",
+      "route": "admin.store.url"
+    },{
+      "name": "Delete Url",
+      "url": "delete-url",
+      "route": "admin.delete.url"
+    },{
+      "name": "Edit Url",
+      "url": "edit-url",
+      "route": "admin.edit.url"
+    },{
+      "name": "Update Url",
+      "url": "update-url",
+      "route": "admin.update.url"
+    },{
+      "name": "View All Urls",
+      "url": "view-all-urls",
+      "route": "admin.view.all.urls"
+    },{
+      "name": "Roles",
+      "url": "#",
+      "route": "NULL"
+    },{
+      "name": "Add Role",
+      "url": "add-role",
+      "route": "admin.add.role"
+    },{
+      "name": "View Roles",
+      "url": "view-roles",
+      "route": "admin.view.roles"
+    },{
+      "name": "Store Role",
+      "url": "store-role",
+      "route": "admin.store.role"
+    },{
+      "name": "Delete Role",
+      "url": "delete-role",
+      "route": "admin.delete.role"
+    },{
+      "name": "Edit Role",
+      "url": "edit-role",
+      "route": "admin.edit.role"
+    },{
+      "name": "Update Role",
+      "url": "update-role",
+      "route": "admin.update.role"
+    }
+  ],
+  "Merchant":[
+    {
+      "name": "Merchant",
+      "url": "#",
+      "route": "NULL"
+    },{
+      "name": "Add Merchant",
+      "url": "add-merchant",
+      "route": "admin.add.merchant"
+    },{
+      "name": "All Merchants",
+      "url": "all-merchants",
+      "route": "admin.all.merchants"
+    },{
+      "name": "Store Merchant",
+      "url": "store-merchant",
+      "route": "admin.store.merchant"
+    },{
+      "name": "Delete Merchant",
+      "url": "delete-merchant",
+      "route": "admin.delete.merchant"
+    },{
+      "name": "Edit Merchant",
+      "url": "edit-merchant",
+      "route": "admin.edit.merchant"
+    },{
+      "name": "Update Merchant",
+      "url": "update-merchant",
+      "route": "admin.update.merchant"
+    }
+  ],
+  "Merchant Type":[
+    {
+      "name": "Merchant Type",
+      "url": "#",
+      "route": "NULL"
+    },
+    {
+      "name": "Add Merchant Type",
+      "url": "add-merchant-type",
+      "route": "admin.add.merchant.type"
+    },{
+      "name": "Update Merchant Type",
+      "url": "update-merchant-type",
+      "route": "admin.update.merchant.type"
+    },{
+      "name": "Store Merchant Type",
+      "url": "store-merchant-type",
+      "route": "admin.store.merchant.type"
+    },{
+      "name": "Edit Merchant Type",
+      "url": "edit-merchant-type",
+      "route": "admin.edit.merchant.type"
+    },{
+      "name": "Delete Merchant Type",
+      "url": "delete-merchant-type",
+      "route": "admin.delete.merchant.type"
+    }
+  ],
+  "Locations":[
+    {
+      "name": "Locations",
+      "url": "#",
+      "route": "NULL"
+    },{
+      "name": "Add Location",
+      "url": "add-location",
+      "route": "admin.add.location"
+    },{
+      "name": "Store Location",
+      "url": "store-location",
+      "route": "admin.store.location"
+    },{
+      "name": "Delete Location",
+      "url": "delete-location",
+      "route": "admin.delete.location"
+    },{
+      "name": "View All Locations",
+      "url": "all-locations",
+      "route": "admin.all.location"
+    },{
+      "name": "Edit Location",
+      "url": "edit-location",
+      "route": "admin.edit.location"
+    },{
+      "name": "Update Location",
+      "url": "update-location",
+      "route": "admin.update.location"
+    }
+  ],
+  "Location Type":[
+    {
+      "name": "Location Type",
+      "url": "#",
+      "route": "NULL"
+    },{
+      "name": "Add Location Type",
+      "url": "add-location-type",
+      "route": "admin.add.location.type"
+    },{
+      "name": "Store Location Type",
+      "url": "store-location-type",
+      "route": "admin.store.location.type"
+    },{
+      "name": "Delete Location Type",
+      "url": "delete-location-type",
+      "route": "admin.delete.location.type"
+    }
+  ],
+  "Employee":[
+    {
+      "name": "Employee",
+      "url": "#",
+      "route": "NULL"
+    },{
+      "name": "All Employees",
+      "url": "all-employees",
+      "route": "admin.all.employees"
+    },{
+      "name": "Add Employee",
+      "url": "add-employee",
+      "route": "admin.add.employee"
+    },{
+      "name": "Store Employee",
+      "url": "store-employee",
+      "route": "admin.store.employee"
+    },{
+      "name": "Delete Employee",
+      "url": "delete-employee",
+      "route": "admin.delete.employee"
+    },{
+      "name": "Edit Employee",
+      "url": "edit-employee",
+      "route": "admin.edit.employee"
+    },{
+      "name": "Update Employee",
+      "url": "update-employee",
+      "route": "admin.update.employee"
+    }
+  ],
+  "My Account":[
+    {
+      "name": "My Account",
+      "url": "#",
+      "route": "NULL"
+    } ,{
+      "name": "Business Profile",
+      "url": "business-profile",
+      "route": "admin.business.profile"
+    },{
+      "name": "My Profile",
+      "url": "my-profile",
+      "route": "admin.my.profile"
+    },{
+      "name": "Change Password",
+      "url": "change-password",
+      "route": "admin.password.change.showForm"
+    },{
+      "name": "Update Password",
+      "url": "update-password",
+      "route": "admin.password.update"
+    }
+  ]
+}

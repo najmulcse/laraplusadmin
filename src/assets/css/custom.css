@@ -1,0 +1,378 @@
+/* Add here all your CSS customizations */
+/* Add here all your CSS customizations */
+
+.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-selection__rendered{
+    border-radius: 0 !important;
+    height: calc(1.25rem + 2px);
+    font-size: 0.85rem;
+    line-height: 2.85;
+    min-height: 2.4rem;
+    color: #495057;
+
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 5px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-top-color: #000000;
+}
+
+.select2-container--default .select2-selection--single{
+    border: 1px solid #ced4da;
+}
+
+
+/* modal */
+
+button.close {
+    cursor: pointer;
+}
+
+.modal-dialog {
+    max-width: 900px;
+}
+
+/* form */
+label.control-label{
+    font-weight: 700;
+}
+
+.sl-profile-image-avatar{
+    width: 100px;
+    height: 100px;
+    position:relative;
+    border-radius: 50%;
+    border: 5px solid #E1E1E1;
+    padding: 5px;
+}
+.sl-product-image-avatar{
+    width: 100%;
+}
+
+.profile-pic-upload-container{
+    position: relative;
+}
+
+.profile-pic-upload-container i.fa{
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    color: #A3A3A3;
+    font-size: 18px;
+}
+
+.sl-staff-image img{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+/*support page */
+
+.sl-support-user-image{
+    max-height: 30px;
+    max-width: 30px;
+    display: inline-block;
+}
+
+.single-support-message span{
+    font-weight: 700;
+}
+
+.single-support-message{
+    padding: 1rem;
+    box-shadow:  0 0 5px 5px #ddd;
+    margin-bottom: 1rem;
+}
+
+.reply-message{
+    margin-left: 2rem;
+}
+
+.single-support-message:first-child{
+    margin-top: 3rem;
+}
+
+
+table td a.btn{
+    margin-bottom: 0;
+}
+
+.sl-display-supplier-logo{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.image-display{
+    margin-bottom: 1rem;
+}
+
+
+/*.card-header,*/
+/*.card-body {*/
+/*background: #ECEDF0;*/
+/*}*/
+
+/*.add-purchase-container .nav-item.active a {*/
+/*border: 2px solid #0088cc !important;*/
+/*border-radius: 0 !important;*/
+/*}*/
+
+/*.add-purchase-container .tabs-left .tab-content {*/
+/*border-radius: 0;*/
+/*border-left: none;*/
+/*border: 2px solid #0088cc;*/
+/*position: relative;*/
+/*left: -2px;*/
+/*}*/
+
+/*.add-purchase-container .sl-submit-button-group button {*/
+/*width: 120px;*/
+/*}*/
+
+.memo-container p{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.memo-filter-title{
+    font-weight: 700;
+
+}
+
+.pos-product-short-image img{
+    width: 100px;
+}
+
+.product-short-desc p{
+    margin: 0;
+}
+.product-short-desc p.product-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.shop-pos-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-pos-category-image {
+    flex-basis: 33%;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+.pricing-table .plan-ribbon{
+    font-size: 11px;
+}
+
+.salaryInput, .salary-input-select{
+    width: 32%;
+    display: inline-block;
+}
+.degreeInput{
+    width: 23%;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.salary-control-label{
+    display: block;
+}
+
+.degree-input-select-container .select2-container--bootstrap{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+#addEducationalDegree{
+    margin-left: 80px;
+}
+
+.ageInput{
+    width: 47%;
+    display: inline-block;
+}
+
+p.bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+label {
+    margin-bottom: .3rem;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 3;
+}
+
+span.input-group-addon{
+    padding: 0 5px;
+}
+
+input[type="text"].form-control:not(.form-control-sm):not(.form-control-lg), input[type="number"].form-control:not(.form-control-sm):not(.form-control-lg), input[type="file"].form-control:not(.form-control-sm):not(.form-control-lg), input[type="email"].form-control:not(.form-control-sm):not(.form-control-lg){
+    min-height: 30px;
+    height: 30px;
+}
+
+.form-group p{
+    margin-bottom: 0;
+}
+
+
+.input-group>.select2-hidden-accessible:not(:first-child):not(:last-child)+.select2-container--bootstrap:last-child>.selection>.select2-selection{
+    height: 30px;
+    font-size: 13px;
+}
+
+.input-group>.select2-hidden-accessible:not(:first-child)+.select2-container--bootstrap:not(:last-child)>.selection>.select2-selection{
+    height: 30px;
+    font-size: 13px;
+}
+
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field{
+    height: 30px;
+}
+
+input[type="file"].form-control:not(.form-control-sm):not(.form-control-lg){
+    font-size: 13px;
+    line-height: 0.90;
+}
+
+
+.select2-container--bootstrap .select2-selection--single{
+    padding-top: 3px;
+}
+
+.bootstrap-tagsinput{
+    height: 30px;
+
+}
+
+.bootstrap-tagsinput input[type="text"]{
+    line-height: 1.1;
+}
+
+.direct-sell-option a{
+    margin-right: 1rem;
+    display: inline-block;
+    background: #333;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+
+}
+
+.input-group-btn .btn {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+
+.form-control:not(.form-control-sm):not(.form-control-lg) {
+    min-height: 30px;
+}
+
+select.form-control:not([size]):not([multiple]){
+    height: 32px;
+}
+
+td .input-group{
+    height: 32px;
+    width: 50%;
+    margin: 0 auto;
+}
+td .paid-input-group{
+    width: 50%;
+}
+
+.widget-card{
+    box-shadow: 0 0 5px #333;
+}
+
+.widget-card .widget-summary p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.widget-card .widget-summary p span{
+    display: block;
+    font-weight: 700;
+}
+
+.select2-container--bootstrap .select2-selection--single{
+    height: 30px;
+}
+
+h4.review-title, h4.settings-title{
+    font-weight: 700;
+}
+
+ul.checkbox-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+ul.checkbox-list li{
+    margin-bottom: 0.5rem;
+}
+
+.single-settings-block{
+    margin-bottom: 2rem;
+}
+
+.small-modal-content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.bootstrap-tagsinput {
+    padding: 3px 6px 6.2px;
+}
+
+.form-control.selectize-control{
+    height: 34px;
+}
+
+.selectize-dropdown-content img{ width:20px; height:20px; margin-right: 3px; float:left; }
+
+.selectize-control::before {
+    -moz-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    content: ' ';
+    z-index: 2;
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 34px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/spinner.gif);
+    background-size: 16px 16px;
+    opacity: 0;
+}
+.selectize-control.loading::before {
+    opacity: 1;
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "title": "Menus",
+    "parent_id": 0,
+    "menu_id": 1,
+    "order_by": 0,
+    "icon_class": "menu-icon",
+    "permission_id": 1
+  },{
+    "title": "Add Menu",
+    "parent_id": 1,
+    "menu_id": 1,
+    "order_by": 1,
+    "icon_class": "add-menu-icon",
+    "permission_id": 2
+  },
+  {
+  "title": "Menu Order",
+  "parent_id": 1,
+  "menu_id": 1,
+  "order_by": 2,
+  "icon_class": "add-menu-icon",
+  "permission_id": 11
+},
+  {
+    "title":"Web Roles",
+    "parent_id": 0,
+    "menu_id": 1,
+    "order_by": 0,
+    "icon_class": "web-role-icon",
+    "permission_id": 13
+  },{
+  "title": "Url Groups",
+  "parent_id": 4,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "url-group-icon",
+  "permission_id": 14
+},{
+  "title": "Urls",
+  "parent_id": 4,
+  "menu_id": 1,
+  "order_by": 2,
+  "icon_class": "urls-icon",
+  "permission_id": 21
+},{
+  "title": "Roles",
+  "parent_id": 4,
+  "menu_id": 1,
+  "order_by": 3,
+  "icon_class": "role-icon",
+  "permission_id": 28
+},{
+  "title": "Merchant",
+  "parent_id": 0,
+  "menu_id": 1,
+  "order_by": 0,
+  "icon_class": "merchant-icon",
+  "permission_id": 35
+},{
+  "title": "Merchant Type",
+  "parent_id": 8,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "merchant-type-icon",
+  "permission_id": 42
+},{
+  "title": "All Merchants",
+  "parent_id": 8,
+  "menu_id": 1,
+  "order_by": 3,
+  "icon_class": "all-merchants-icon",
+  "permission_id": 37
+},{
+  "title": "Add Merchant",
+  "parent_id": 8,
+  "menu_id": 1,
+  "order_by": 2,
+  "icon_class": "add-merchant-icon",
+  "permission_id": 36
+},{
+  "title": "Locations",
+  "parent_id": 0,
+  "menu_id": 1,
+  "order_by": 0,
+  "icon_class": "location-icon",
+  "permission_id": 48
+},{
+  "title": "Location Types",
+  "parent_id": 12,
+  "menu_id": 1,
+  "order_by": 0,
+  "icon_class": "url-icon",
+  "permission_id": 55
+},{
+  "title": "All Locations",
+  "parent_id": 12,
+  "menu_id": 1,
+  "order_by": 2,
+  "icon_class": "all-locations-icon",
+  "permission_id": 52
+},{
+  "title": "Add Location",
+  "parent_id": 12,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "add-location-icon",
+  "permission_id": 49
+},{
+  "title": "Employees",
+  "parent_id": 0,
+  "menu_id": 1,
+  "order_by": 0,
+  "icon_class": "url-icon",
+  "permission_id": 59
+},{
+  "title": "All Employees",
+  "parent_id": 16,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "all-employees-icon",
+  "permission_id": 60
+},{
+  "title": "Add Employee",
+  "parent_id": 16,
+  "menu_id": 1,
+  "order_by": 2,
+  "icon_class": "add-employee-icon",
+  "permission_id": 61
+},{
+  "title": "My Account",
+  "parent_id": 0,
+  "menu_id": 1,
+  "order_by": 0,
+  "icon_class": "add-employee-icon",
+  "permission_id": 66
+},{
+  "title": "Business Profile",
+  "parent_id": 19,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "business-profile-icon",
+  "permission_id": 67
+},{
+  "title": "My Profile",
+  "parent_id": 19,
+  "menu_id": 1,
+  "order_by": 2,
+  "icon_class": "my-profile-icon",
+  "permission_id": 68
+},{
+  "title": "Change Password",
+  "parent_id": 19,
+  "menu_id": 1,
+  "order_by": 3,
+  "icon_class": "change-password-icon",
+  "permission_id": 69
+},{
+  "title": "Add Location Type",
+  "parent_id": 13,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "url-icon",
+  "permission_id": 56
+},{
+  "title": "View Url groups",
+  "parent_id": 5,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "url-icon",
+  "permission_id": 16
+},{
+  "title": "View  Urls",
+  "parent_id": 6,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "url-icon",
+  "permission_id": 27
+},{
+  "title": "Add Merchant Type",
+  "parent_id": 9,
+  "menu_id": 1,
+  "order_by": 1,
+  "icon_class": "url-icon",
+  "permission_id": 43
+}
+]
