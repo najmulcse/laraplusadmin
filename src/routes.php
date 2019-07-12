@@ -120,7 +120,7 @@ Route::group([ 'prefix'=> 'admin','namespace' => 'najmulcse\laraplusadmin\Http\C
 
 
     // accounts
-    Route::get('/my-profile', 'ProfileCOntroller@myProfile')->name('admin.my.profile');
+    Route::get('/my-profile', 'ProfileController@myProfile')->name('admin.my.profile');
     Route::get('/business-profile', 'ProfileController@businessProfile')->name('admin.business.profile');
     Route::get('/change-password', 'PasswordChangeController@changePasswordFormShow')->name('admin.password.change.showForm');
     Route::post('/update-password', 'PasswordChangeController@updatePassword')->name('admin.password.update');

@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col">
             <section class="card">
-                <form action="{{ route('admin.store.role') }}" method="post">
+                <form action="{{ route('admin.store.url_group') }}" method="post">
                     <header class="card-header">
                         <h2 class="card-title">Add Url-Group</h2>
                     </header>
@@ -84,7 +84,7 @@
                                         ><i class="fa fa-edit"></i> Edit</a>
                                         <a href="#modalDelete"
                                            data-id="{{$role->id}}"
-                                           data-url="{{ route('admin.delete.role') }}"
+                                           data-url="{{ route('admin.delete.url_group') }}"
                                            class="default-delete-option btn btn-danger btn-sm mb-1 mt-1 mr-1 modal-basic"
                                         ><i class="fa fa-trash"></i> Delete</a>
 
